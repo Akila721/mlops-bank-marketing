@@ -10,4 +10,6 @@ monitoring/*.csv
 monitoring/*.json
 monitoring/*.html
 gate_report.md
-.env
+.envdata/raw/
+data/processed/
+models/*.cbm
