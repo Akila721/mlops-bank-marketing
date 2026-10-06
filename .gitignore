@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+mlruns/
+mlflow.db
+catboost_info/
+monitoring/*.csv
+monitoring/*.json
+monitoring/*.html
+gate_report.md
+.env
+
+# Kickoff notebook outputs (data it downloads, the pickled model)
+notebooks/*.csv
+*.pkl
+
+# Data and models are managed by DVC, never by git
+data/raw/
+data/processed/
+models/*.cbm
