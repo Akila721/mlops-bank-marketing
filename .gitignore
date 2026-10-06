@@ -12,4 +12,4 @@ monitoring/*.html
 gate_report.md
 .envdata/raw/
 data/processed/
-models/*.cbmgit 
+models/*.cbm
